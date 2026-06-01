@@ -19,12 +19,12 @@ include:
     artifact-name: dongle_central
 
     # Left Split With Bluetooth
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: scylla_left
     artifact-name: left_split_bluetooth
 
     # Right Split With Bluetooth
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: scylla_right
     artifact-name: right_split_bluetooth
 
