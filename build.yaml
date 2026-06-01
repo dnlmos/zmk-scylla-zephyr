@@ -19,12 +19,13 @@ include:
     artifact-name: dongle_central
 
     # Left Split With Bluetooth
-  - board: nice_nano//zmk
+  - board: nice_nano
     shield: scylla_left
+    snippet: studio-rpc-usb-uart
     artifact-name: left_split_bluetooth
 
     # Right Split With Bluetooth
-  - board: nice_nano//zmk
+  - board: nice_nano
     shield: scylla_right
     artifact-name: right_split_bluetooth
 
