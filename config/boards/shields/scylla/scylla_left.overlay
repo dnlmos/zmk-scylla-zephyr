@@ -1,12 +1,11 @@
-#include "scylla.dtsi"
-
+#include "scylla.dtsi" // Notice that the main dtsi files are included in the overlay.
 &kscan0 {
-    col-gpios
-        = <&gpio0 17 GPIO_ACTIVE_HIGH>
-        , <&gpio0 20 GPIO_ACTIVE_HIGH>
-        , <&gpio0 22 GPIO_ACTIVE_HIGH>
-        , <&gpio0 24 GPIO_ACTIVE_HIGH>
-        , <&gpio1 0  GPIO_ACTIVE_HIGH>
-        , <&gpio0 11 GPIO_ACTIVE_HIGH>
-        ;
+	col-gpios
+		= <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		;
 };
