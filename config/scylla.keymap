@@ -32,17 +32,17 @@
         };
 
         num {
-            bindings = <&tog 3>;
+            bindings = <&tog 2>;
             key-positions = <0 1>;
         };
 
         toggle_hrm {
-            bindings = <&tog 5>;
+            bindings = <&tog 1>;
             key-positions = <50 51>;
         };
 
         fun_layer {
-            bindings = <&tog 0>;
+            bindings = <&tog 4>;
             key-positions = <49 52>;
         };
     };
